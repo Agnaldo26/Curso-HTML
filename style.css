@@ -6,10 +6,12 @@
 body {
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
    
 }
 
-#title, .subtitle, .post_title{
+#title, .subtitle, .post_title, .title_contacts{
     color: #505050;
 }
 
@@ -17,7 +19,6 @@ body {
     font-size: 40px;
     text-transform: uppercase;
 }
-
 
 .post {
     background: #fff;
@@ -38,13 +39,14 @@ body {
 .post_image {
     margin-bottom: 15px;
     border-radius: 5px; 
-  
+    width: 100%;
 }
 
 .post_content {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 a {
@@ -52,10 +54,17 @@ a {
     color: #505050;
 }
 
+.title_contacts {
+    margin: 0;
+    margin-left: 17px;
+}
+
 .contacts_list {
     list-style-type: none;
     padding-left: 17px;
+    margin: 0;
 }
+
 
 .contacts_list li a {
     text-decoration: none;
